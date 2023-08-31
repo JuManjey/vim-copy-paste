@@ -1,0 +1,7 @@
+" Map Ctrl-Shift-C to yank (copy) to system clipboard in normal and visual mode
+nmap <C-S-c> "+y
+vmap <C-S-c> "+y
+
+" Map Ctrl-Shift-V to paste from system clipboard in normal and insert mode
+nmap <C-S-v> "+p
+imap <C-S-v> <Esc>"+pa
