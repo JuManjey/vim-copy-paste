@@ -1,5 +1,7 @@
 # sudo apt install xclip
 
+vim /root/.vimrc
+
 syntax enable
 " Map Ctrl-Shift-C to yank (copy) to system clipboard in normal and visual mode
 nmap <C-S-c> "+y
